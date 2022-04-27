@@ -18,7 +18,6 @@ namespace TodoApi.Controllers
 
         private readonly ITodoService _service;
         private readonly ILogger _logger;
-        private readonly ILogger<ControllerBase> _nlogger;
         public TodoItemsController(ITodoService service, ILogger logger)
         {
             _service = service;
