@@ -19,10 +19,5 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\TodoApiDTO.Business\TodoApiDTO.Business.csproj" />
-    <ProjectReference Include="..\TodoApiDTO.Data\TodoApiDTO.Data.csproj" />
-  </ItemGroup>
-
 
 </Project>
