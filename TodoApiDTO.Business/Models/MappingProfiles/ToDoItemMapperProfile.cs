@@ -2,10 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using TodoApiDTO.Business.Models.Dto;
-using TodoApiDTO.Data.Entities;
+using ToDoApiDTO.Data.Entities;
 
-namespace TodoApiDTO.Business.Models.MappingProfiles
+namespace ToDoApiDTO.Business.Models.MappingProfiles
 {
     public class ToDoItemMapperProfile : Profile
     {

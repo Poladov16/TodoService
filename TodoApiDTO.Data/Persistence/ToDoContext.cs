@@ -5,9 +5,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using TodoApiDTO.Data.Entities;
+using ToDoApiDTO.Data.Entities;
 
-namespace TodoApiDTO.Data.Persistence
+namespace ToDoApiDTO.Data.Persistence
 {
     public class ToDoContext : DbContext
     {

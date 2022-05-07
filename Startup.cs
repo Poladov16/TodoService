@@ -13,8 +13,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using TodoApiDTO.Business.Services;
-using TodoApiDTO.Data.Persistence;
+using ToDoApiDTO.Business.Services;
+using ToDoApiDTO.Data.Persistence;
 
 namespace TodoApi
 {

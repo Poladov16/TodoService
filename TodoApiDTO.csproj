@@ -5,6 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="TodoApiDTO.Business\**" />
+    <Compile Remove="TodoApiDTO.Data\**" />
+    <Content Remove="TodoApiDTO.Business\**" />
+    <Content Remove="TodoApiDTO.Data\**" />
+    <EmbeddedResource Remove="TodoApiDTO.Business\**" />
+    <EmbeddedResource Remove="TodoApiDTO.Data\**" />
+    <None Remove="TodoApiDTO.Business\**" />
+    <None Remove="TodoApiDTO.Data\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="11.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
@@ -17,6 +28,11 @@
     <PackageReference Include="NLog" Version="4.7.15" />
     <PackageReference Include="NLog.Web.AspNetCore" Version="4.14.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="TodoApiDTO.Business\TodoApiDTO.Business.csproj" />
+    <ProjectReference Include="TodoApiDTO.Data\TodoApiDTO.Data.csproj" />
   </ItemGroup>
 
 

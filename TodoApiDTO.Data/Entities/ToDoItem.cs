@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace TodoApiDTO.Data.Entities
+namespace ToDoApiDTO.Data.Entities
 {
+
     #region snippet
     public class ToDoItem
     {
@@ -15,4 +16,5 @@ namespace TodoApiDTO.Data.Entities
         public string Secret { get; set; }
     }
     #endregion
+
 }

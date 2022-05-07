@@ -4,11 +4,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using TodoApiDTO.Business.Models.Dto;
-using TodoApiDTO.Data.Entities;
-using TodoApiDTO.Data.Persistence;
+using ToDoApiDTO.Business.Models;
+using ToDoApiDTO.Data.Entities;
+using ToDoApiDTO.Data.Persistence;
 
-namespace TodoApiDTO.Business.Services
+namespace ToDoApiDTO.Business.Services
 {
     public class ToDoService : ITodoService
     {
@@ -37,14 +37,14 @@ namespace TodoApiDTO.Business.Services
         {
             var todoItemEntity = await _todoService.TodoItems.FirstOrDefaultAsync(f => f.Id == id);
 
-            if (todoItemEntity != null)
+            if (todoItemEntity!=null)
             {
                 _todoService.TodoItems.Remove(todoItemEntity);
-                var result = await _todoService.SaveChangesAsync();
+               var result = await _todoService.SaveChangesAsync();
                 return result;
 
             }
-
+         
             return 0;
         }
 

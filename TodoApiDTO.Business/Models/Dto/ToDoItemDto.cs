@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TodoApiDTO.Business.Models.Dto
+namespace ToDoApiDTO.Business.Models
 {
-
     #region snippet
     public class ToDoItemDto
     {

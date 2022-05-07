@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using TodoApiDTO.Business.Models.Dto;
+using ToDoApiDTO.Business.Models;
+using ToDoApiDTO.Data.Entities;
 
-namespace TodoApiDTO.Business.Services
+namespace ToDoApiDTO.Business.Services
 {
     public interface ITodoService
     {
@@ -18,6 +19,6 @@ namespace TodoApiDTO.Business.Services
 
         Task<ToDoItemDto> GetAsync(long id);
 
-
+       
     }
 }

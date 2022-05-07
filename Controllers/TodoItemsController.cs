@@ -6,8 +6,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TodoApiDTO.Business.Models.Dto;
-using TodoApiDTO.Business.Services;
+using ToDoApiDTO.Business.Models;
+using ToDoApiDTO.Business.Services;
 
 namespace TodoApi.Controllers
 {
